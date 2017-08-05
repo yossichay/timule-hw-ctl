@@ -5,7 +5,7 @@ Timule HW Controller
 
 [DIYmall 0.96" 128x64 White I2C][1]
 
-###Connecting to RPi
+### Connecting to RPi
 
 VCC - 1
 GND - 6
@@ -13,14 +13,14 @@ SDA - 3
 SCL - 5
 
 
-###Install OLED library
+### Install OLED library
 
 ```sh
 cd src/ArduiPi-SSD1306
 sudo make
 ```
 
-###Creating Bitmaps code
+### Creating Bitmaps code
 
 [Online tool][2]
 
