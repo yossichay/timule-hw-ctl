@@ -24,8 +24,10 @@ sudo make
 
 [Online tool][2]
 
+### libmpdclient
 
-
+[Documentation (through example)][3]
 
 [1]: https://drive.google.com/open?id=0B8DSGdAr8_31UEItMmx6ZDJIOWs
 [2]: http://javl.github.io/image2cpp/
+[3]: http://libmpdclient.sourcearchive.com/documentation/2.2/example_8c-source.html
