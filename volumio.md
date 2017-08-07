@@ -207,6 +207,6 @@ sudo unzip ~/Timule-App.zip
 cd ../html/www
 rm -rf *
 sudo unzip ~/Timule-www.zip
-sudo systemctl stop volumio.service
+sudo systemctl start volumio.service
 ```
 The system now should run with the new SW.
