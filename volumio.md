@@ -137,6 +137,8 @@ in the GUI: Settings--->Playback Options select AudioInjector instead of JACK
 In order to use a USN WiFi dongle as `wlan0`
 add new line with `dtoverlay=pi3-disable-wifi` to `/boot/config.txt`
 
+***
+
 ## Interacting with Volumio
 
 Login directly: Username:`volumio` Password:`volumio2`
@@ -210,3 +212,39 @@ sudo unzip ~/Timule-www.zip
 sudo systemctl start volumio.service
 ```
 The system now should run with the new SW.
+
+### Add/change media files
+
+The Timule app caregorizes the sessions using 3 playlists:
+
+-  `Short sessions`
+-  `Medium sessions`
+-  `Long sessions`
+
+Each one is defines as a file under `/data/playlist`
+
+The format of a playlist file:
+
+```
+[
+  {
+    "service": "mpd",
+    "uri": "INTERNAL/<Media File 1 name>",
+    "title": "<Media File 1 Title ",
+    "artist": null,
+    "album": null,
+    "albumart": "/albumart?path=%2FINTERNAL",
+    "length": "15:04"
+  },
+  {
+    "service": "mpd",
+    "uri": "INTERNAL/<Media File 2 name>",
+    "title": "<Media File 2 Title ",
+    "artist": null,
+    "album": null,
+    "albumart": "/albumart?path=%2FINTERNAL",
+    "length": "4:18"
+   }
+]
+```
+
