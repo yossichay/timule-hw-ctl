@@ -7,10 +7,12 @@ Timule HW Controller
 
 ### Connecting to RPi
 
-VCC - 1
-GND - 6
-SDA - 3
-SCL - 5
+| Signal  | RPi Pin |
+|---------|:-------:|
+| VCC     | 1       |  
+| GND     | 6       |
+| SDA     | 3       |
+| SCL     | 5       |
 
 
 ### Install OLED library
